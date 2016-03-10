@@ -30,8 +30,8 @@ def add_numbers():
     value = request.args.get('wordlist')
     typegraph = request.args.get('wordlist2')
     danish =[1,2,3,4,5]
-    fin='/home/danish/Desktop/'+value;
-    df=pd.read_csv(fin)
+    #fin='/home/danish/Desktop/'+value;
+    df=pd.read_csv(value)
 
     xx=df.Time.tolist()
     yy=df.Output.tolist()
