@@ -1,12 +1,12 @@
 # import the Flask class from the flask module
 from flask import Flask, render_template,redirect,url_for, request , jsonify,json,make_response
 import sys
-sys.path.append("/usr/local/lib/python2.7/dist-packages" )
+#sys.path.append("/usr/local/lib/python2.7/dist-packages" )
 import pygal
-sys.path.append("/usr/lib/python2.7/dist-packages")
+#sys.path.append("/usr/lib/python2.7/dist-packages")
 import numpy as np
 
-sys.path.append("/usr/lib/pymodules/python2.7")
+#sys.path.append("/usr/lib/pymodules/python2.7")
 
 import pandas as pd
 from pandas import Series, DataFrame, Panel
